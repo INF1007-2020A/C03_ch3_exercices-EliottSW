@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-
+print("Hello Eliott")
 import math
 pi = math.pi
 
@@ -11,7 +11,7 @@ def average(a: float, b: float, c: float) -> float:
 
 
 def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float:
-    return (angle_degs + (angle_mins + angle_secs/60)/60) * pi /180
+    return (angle_degs + (angle_mins + angle_secs/60)/60) * pi / 180
 
 
 def to_degrees(angle_rads: float) -> tuple:
@@ -37,8 +37,8 @@ def main() -> None:
     degrees, minutes, seconds = to_degrees(1.0)
     print(f"Conversion de 1 radian en degres: {degrees} degres, {minutes} minutes et {seconds} secondes")
 
-    print(f"Conversion de 100 Celsius en Farenheit: {to_farenheit(100.0)}")
-    print(f"Conversion de 451 Farenheit en Celsius: {to_celsius(451.0)}")
+    print(f"Conversion de 100 Celsius en Fahrenheit: {to_farenheit(100.0)}")
+    print(f"Conversion de 451 Fahrenheit en Celsius: {to_celsius(451.0)}")
 
 
 if __name__ == '__main__':
