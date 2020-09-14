@@ -1,10 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+
 import math
 pi = math.pi
-
-print("Hello Eliott !")
 
 
 def average(a: float, b: float, c: float) -> float:
